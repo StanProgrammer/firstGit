@@ -50,5 +50,16 @@ const edit2=document.getElementsByTagName('li');
 // console.log(edit2[4].textContent)
 edit2[4].textContent='Hello India';
 
+const second=document.querySelectorAll('.list-group-item');
+console.log(second[0].textContent)
+second[1].style.backgroundColor='green'
+
+const second1=document.querySelector('.list-group-item:first-child');
+console.log(second1.textContent)
+
+const second2=document.querySelectorAll('.list-group-item');
+second2[2].style.visibility='hidden';
+
+
 
 
