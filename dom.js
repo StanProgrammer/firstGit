@@ -32,5 +32,23 @@ item1[2].style.backgroundColor='green'
 for(let i of item1){
     i.style.fontWeight='bold';
 }
+const li1=document.querySelector('.list-group-item');
+
+const li2=document.createElement('li');
+li2.textContent='Hello World'
+li2.classList.add('title2')
+const head=li1.parentNode
+// console.log(li2)
+head.appendChild(li2)
+
+const edit1=document.getElementsByClassName('title2');
+// const edit1=document.querySelector('.title2')
+edit1[0].textContent='Hello People'
+// console.log(edit1[0].textContent)
+
+const edit2=document.getElementsByTagName('li');
+// console.log(edit2[4].textContent)
+edit2[4].textContent='Hello India';
+
 
 
