@@ -31,6 +31,6 @@ item1[2].style.backgroundColor='green'
 // item1[].style.fontWeight='bold'
 for(let i of item1){
     i.style.fontWeight='bold';
-}
+}l
 
 
