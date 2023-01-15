@@ -60,6 +60,9 @@ console.log(second1.textContent)
 const second2=document.querySelectorAll('.list-group-item');
 second2[2].style.visibility='hidden';
 
+const second3=document.querySelectorAll('li');
+console.log(second3[0].textContent)
+
 
 
 
