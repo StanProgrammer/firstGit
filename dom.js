@@ -92,7 +92,7 @@ itemlist.lastElementChild.style.color='blue'
 
 // firstElementChild
 // console.log(itemlist.firstElementChild)
-itemlist.firstElementChild.textContent='Hello World';
+// itemlist.firstElementChild.textContent='Hello World';
 
 
 // nextSibling
@@ -120,10 +120,10 @@ newdiv.id='hello1'
 newdiv.setAttribute('title','Hello Div')
 
 //to insert createTextNode
-var newdivText=document.createTextNode('Hello World')
+// var newdivText=document.createTextNode('Hello World')
 
 // #appendChild
-newdiv.appendChild(newdivText)
+// newdiv.appendChild(newdivText)
 // console.log(newdiv)
 
 var container=document.querySelector('header .container')
